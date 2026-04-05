@@ -1214,8 +1214,8 @@
             "button_wCBeUb": {
               "type": "button",
               "settings": {
-                "label": "Shop now",
-                "link": "shopify://collections/all",
+                "label": "Read more",
+                "link": "{{ closest.product.metafields.custom.influencer.value.system.url }}",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
