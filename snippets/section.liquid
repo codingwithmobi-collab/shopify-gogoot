@@ -60,7 +60,11 @@
       "
       data-testid="section-content"
     >
-      {{ children }}
+      {% if closest.product.metafields.custom.influencer %}
+        {{ children }}
+      {% else %}
+        <h2>This product has not influencer</h2>
+      {% endif %}
     </div>
   </div>
 </div>
